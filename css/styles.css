@@ -1,0 +1,105 @@
+/*  */
+html {
+    scroll-behavior: smooth;
+}
+/* grid display */
+.grid {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 400px);
+}
+/* base style */
+body {
+    background-color: black;
+}
+/* image style */
+img {
+    height: 100%;
+    width: 100%;
+}
+
+/* grid layout */
+.liam {
+    grid-column: span 2;
+}
+
+.gang {
+    grid-column: span 2;
+}
+
+.garth {
+    grid-column: span 2;
+}
+.tender {
+    grid-column: span 2;
+}
+.raasik {
+    grid-column: span 2;
+}
+.justin {
+    grid-column: span 2;
+}
+.justice {
+    grid-column: span 2;
+}
+.inter {
+    grid-column: span 2;
+}
+.imo {
+    grid-column: span 2;
+}
+.ebie {
+    grid-column: span 2;
+}
+.gang2 {
+    grid-column: span 2;
+}
+.us2 {
+grid-column: span 2;
+}
+.pic1 {
+    grid-column: span 2;
+}
+.group {
+    grid-column: span 2;
+}
+/* end of style */
+
+/* heading style 1 */
+h1 {
+    text-align: center;
+    color: white;
+}
+h1,
+footer,
+a {
+    font-family: 'Righteous', cursive;
+}
+/* navbar */
+.navbar li{
+    text-align: center;
+    color: white;
+    list-style-type: none;
+} 
+a {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover {
+    color: rgb(247, 71, 100);
+}
+
+/* heading style 2 */
+p {
+    color: white;
+}
+/* footer */
+footer {
+    background-color: brown;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+}
